@@ -1,0 +1,16 @@
+{
+  "name": "insurance-encyclopedia",
+  "productName": "보험도감",
+  "version": "1.0.0",
+  "description": "보험 Needs 환기 바인더 - 보험도감 뷰어 (검색 + 슬라이드 스크롤)",
+  "main": "main.js",
+  "author": "보험도감",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-packager . 보험도감 --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
